@@ -302,13 +302,15 @@ volume 15
 // SECTION OF DIPHTHONGS
 
 0   aI  NULL  60   a  y
+0   &I  NULL  60   @  y
+0   &I~ NULL  60   @  im
 0   eI  NULL  60   e  y
 0   EI  NULL  60   ee y
 0   oI  NULL  60   o  y
-0   oI~ NULL  60   om i
+0   oI~ NULL  60   om im
 0   OI  NULL  60   oo y
 0   uI  NULL  60   u  y
-0   uI~ NULL  60   um i
+0   uI~ NULL  60   um im
 
 0   aU  NULL  60   a  w
 0   &U~ NULL  60   @  um
@@ -316,6 +318,8 @@ volume 15
 0   EU  NULL  60   ee w
 0   iU  NULL  60   i  w
 0   oU  NULL  60   o  w
+0   OU  NULL  60   oo w
+0   uU  NULL  60   u  w
 
 
 // SECTION OF OTHER PHONEMES
@@ -372,10 +376,10 @@ volume 15
 
 // SECTION OF ITALIAN PHONEMES
 
-0   e/  NULL   0   e
-0   o/  NULL   0   o
-0   dz  NULL   0   z
-0   ts2 NULL   0   s
-0   R   NULL   0   r
-0   ss  NULL   0   s
+//0   e/  NULL   0   e
+//0   o/  NULL   0   o
+//0   dz  NULL   0   z
+//0   ts2 NULL   0   s
+//0   R   NULL   0   r
+//0   ss  NULL   0   s
 
