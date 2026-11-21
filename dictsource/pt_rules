@@ -37,6 +37,8 @@
 .L08 a o
 .L09 p b t d k g f v c j q x
 .L10 bt ck ct ff ft ll pf ph pt rm rn sh ss th
+.L11 a as  à  às da das na nas essa essas esta estas dessa dessas desta destas nessa nessas nesta nestas aquela aquelas àquela àquelas daquela daquelas naquela naquelas
+.L12 o os ao aos do dos no nos esse esses este estes desse desses deste destes nesse nesses neste nestes aquele aqueles àquele àqueles daquele daqueles naquele naqueles
 
 
 .replace
@@ -185,7 +187,6 @@ ũ	ũ	// u + U+0303 = U+0169
    óCC) a (C@      &
     úC) a (C@      &
    úCC) a (C@      &
-        ation (_   'eIS&~N
  _infr) a (sso     &
  _infr) a (vermelho &
  _ultr) a (leve_   &
@@ -208,6 +209,10 @@ ũ	ũ	// u + U+0303 = U+0169
 ?1   _) auto (-    ,aUt%O
 ?1   _) auto (-de- ,aU%tU    // auto-de-fé
 ?2   _) auto (-    ,aUt%o
+
+        asion (_   'eIZo~N   // invasion, persuasion
+        assion (_  'aSo~N    // passion, compassion
+        ation (_   'eISo~N   // information, *embromation
 
     // in acronyms like 'A.B.C.'
      _) a (HC_     ,a
@@ -632,7 +637,16 @@ ũ	ũ	// u + U+0303 = U+0169
 ?2  ùC) el (_      eU
     úC) e (C@      e
 
-        ection (_  'EkS&~N    // election, infection... (English)
+        ection (_  'EkSo~N    // election, infection
+        eation (_  'i'eISo~N  // creation, delineation
+        ention (_  'e~NSo~N   // attention, invention
+        eption (_  'EpSo~N    // inception, perception
+        ertion (_  'erSo~N    // assertion, insertion
+        estion (_  'EstSo~N   // digestion, suggestion
+        ession (_  'ESo~N     // aggression, profession
+
+    Cr) etion (_   'ESo~N     // accretion, discretion
+    Cl) etion (_   'iSo~N     // completion, depletion
 
         eau (_     ''o        // bureau, tableau, beau... (French)
         eaux (_    ''o
@@ -1133,6 +1147,10 @@ _redar) gu (A      gw
 ?2      il (ton_   'iU
 ?2      ight (_    'aIt#
 
+        ision (_   'iZo~N  // decision, television
+        ission (_  'iSo~N  // mission, transmission
+        ition (_   'iSo~N  // addition, position, tradition
+
     // in acronyms like 'A.B.C.'
      _) i (HC_     ,i
     // in acronyms like 'C.B.A.'
@@ -1555,8 +1573,7 @@ deteri) o (rL04_   O
      m) o (rrL01_  o
  _Cach) o (rra_    o
     @p) o (rtL03_  O         // importo, etc.
-   a_c) o (rte_    o
-  as_c) o (rte_    o
+_L11_c) o (rte_    o         // a corte, da corte
   _abs) o (rvL01_  o
      t) o (rçL03_  o         // con-
     _c) o (sL01_   o
@@ -1609,6 +1626,9 @@ _alvor) o (çL01_   O
   _end) o (çL03_   O
     _c) o (çL03_   O
 //endsort
+
+        osion (_   'oUZo~N   // corrosion, explosion
+        otion (_   'oUSo~N   // devotion, notion, promotion
 
     // in acronyms like 'A.B.C.'
      _) o (HC_     ,O
@@ -1964,6 +1984,12 @@ _alvor) o (çL01_   O
      g) u (Y 
     _m) ui (t      uI~
     _r) ui (v      uI
+
+        usion (_   'juZo~N  // confusion, transfusion
+     l) usion (_   'uZo~N   // conclusion, illusion
+     r) usion (_   'uZo~N   // intrusion, protrusion
+        ussion (_  '&So~N   // discussion, repercussion
+        ution (_   'uSo~N   // contribution, execution, solution
 
     // in acronyms like 'A.B.C.'
      _) u (HC_     ,u
